@@ -1,0 +1,393 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Courgette&family=Nothing+You+Could+Do&display=swap');
+
+.headerOuter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.makeFlex .font12 {
+	margin-left: 20px;
+}
+.headerOuter {
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 11;
+}
+
+.chHeaderWrapper.navOnly nav, .chHeaderWrapper.stickyHeader {
+	background: #fff;
+	box-shadow: 0 1px 7px 0 rgb(0 0 0/ 40%);
+}
+
+.stickyHeader {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 14;
+}
+
+.chHeaderWrapper.stickyHeader .chHeaderContainer, .staticHeader .chHeaderContainer
+	{
+	display: flex;
+}
+
+.chHeaderContainer {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 10px 0 12px;
+}
+
+*, html {
+	box-sizing: border-box;
+}
+
+body {
+	background: #f2f2f2;
+	padding: 0;
+	margin: 0;
+	color: #4a4a4a;
+	font-size: 14px;
+	font-family: Lato, sans-serif;
+	font-weight: 400;
+}
+
+.margin1 {
+	margin-right: 300px;
+	margin-left: 40px;
+}
+
+html[dir=ltr] body {
+	font-family: Lato, sans-serif;
+}
+
+.chHeaderContainer .logoContainer {
+	font-size: 14px;
+	margin-right: 25px;
+	min-width: 120px;
+	display: flex;
+}
+
+.logoContainer {
+	font-size: 14px;
+	margin-right: 25px;
+	min-width: 120px;
+	display: flex;
+}
+
+.chHeaderContainer .chMmtLogo {
+	width: 113px;
+	height: 25px;
+	display: inline-block;
+	text-align: center;
+}
+
+.chHeaderContainer nav ul {
+	width: 100% !important;
+}
+
+.makeFlex {
+	display: flex;
+}
+
+.chMmtLogo {
+	color: #004777;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 3px;
+	font-weight: 700;
+	margin-right: 20px;
+}
+
+.redMy {
+	color: white;
+	background-color: #D62828;
+	font-size: 30px;
+	border-radius: 5px;
+	font-family: cursive;
+	height: 30px;
+}
+
+.font12 {
+	font-size: 12px;
+	line-height: 12px;
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+.chHeaderContainer nav ul li {
+	margin: 0 10px;
+	position: relative;
+	flex-shrink: 0 !important;
+}
+
+.chHeaderContainer li .chNavIcon {
+	width: 32px;
+	height: 26px;
+}
+
+.chFlights.active {
+	background-position: -2px -1.5px;
+}
+
+.stickyHeader .chHeaderContainer li a.active .chNavText {
+	color: #4a4a4a;
+}
+
+.chHeaderContainer li .chNavText {
+	padding: 3px 5px;
+	border-radius: 10px;
+}
+
+.darkGreyText {
+	color: #4a4a4a;
+}
+
+.makeFlex.hrtlCenter {
+	align-items: center;
+}
+
+.makeFlex.column {
+	flex-direction: column;
+}
+
+.font12 {
+	font-size: 12px;
+	line-height: 12px;
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+p, ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+
+a {
+	color: #008cff;
+	text-decoration: none;
+	cursor: pointer;
+}
+p, ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+
+.makeFlex.hrtlCenter {
+	align-items: center;
+}
+
+ul {
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+}
+
+.logo2 {
+	margin-left: 360px;
+	display: flex;
+	align-items: center;
+}
+
+.headeroute {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.chHeaderContainer .userInfoBoxLabel {
+	width: 35px;
+	height: 35px;
+	padding-top: 12px;
+	border-radius: 50%;
+	background-image: linear-gradient(45deg, #ace143, #219393);
+	text-align: center;
+	font-family: 400;
+}
+
+.login {
+	margin-bottom: 2px;
+}
+
+.makeFlex.hrtlCenter {
+	align-items: center;
+	justify-content: space-between;
+}
+.space{
+	margin-left: 9px;
+}
+.makeFlex {
+	display: flex;
+}
+
+.blackText {
+	color: #000;
+}
+
+.makeRelative {
+	position: relative;
+}
+
+.cursorPointer {
+	cursor: pointer;
+}
+
+.textCenter,.whiteText {
+	font-family: 'Courgette', cursive;
+
+}
+p, ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+.latoBlack {
+	font-weight: 900;
+}
+
+.font10 {
+	font-size: 10px;
+	line-height: 10px;
+}
+
+.whiteText {
+	color: #fff;
+}
+
+html[dir=ltr] .appendRight10 {
+	margin-right: 10px;
+}
+.makeFlex.spaceBetween {
+    justify-content: space-between;
+}
+.latoBold ,.apppendBottom2,.link{
+	font-weight: 700;
+	margin-bottom: 2px;
+	font-size:15px;
+	color: #000;
+}
+
+img,.lufthans,.img1{
+	width: 90vw;
+	height: 90vh;
+	margin-left: 13px;
+}
+.header-main{
+position:absolute;
+top:15%;
+left:50%;
+transform:translate(-50%, -50%);
+display:block;
+font-size:30px;
+font-weight:400;
+letter-spacing:20.5px;
+}
+.header-main,.header-primary,.header-sub{
+color: rgba(255, 255, 255, 0.7);
+text-transform:uppercase;
+backface-visibility:hidden;
+text-align: center;
+}
+.header{
+	background: linear-gradient(90deg, rgba(36,119,159,1)
+	 21%, rgba(4,113,166,1) 27%, rgba(3,45,78,1) 67%);
+	position: relative;
+	width: 100vw;
+}
+.imgcon{
+	background: #f2f2f2;
+	width: 92vw;
+	height: 92vh;
+	margin-left: 48px;
+	border-radius: 14px;
+}
+.header-primary {
+display:block;
+font-size:55px;
+font-weight:400;
+letter-spacing:34.5px;
+animation-name:moveInLeft;
+animation-duration:1s;
+animation-timing-function:easeout;
+position:absolute;
+top:26%;
+left:50%;
+transform:translate(-50%, -50%);
+}
+.header-sub{
+display:block;
+font-size: 37px;
+font-weight:700;
+letter-spacing:5.5px;
+animation-name:moveInRight;
+animation-duration:1s;
+animation-timing-function:easeout;
+margin-bottom: 40px;
+position:absolute;
+top:55%;
+left:50%;
+transform:translate(-50%, -50%);
+}
+.looking{
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	width:92vw;
+	height:10vh;
+	margin-top:45px;
+	margin-left:2px;
+	padding-top: 15px;
+	font-size:22px;
+	font-weight: 400;
+	text-transform:capitalize;
+	line-height: 22px;
+	padding-left: 60px;
+}
+.explolink{
+	margin-left: 400px;
+}
+
+@keyframes moveInLeft{
+0%{
+opacity:0;
+transform:translatex(-100px) rotate(-180deg);}
+80%{
+transform:translatex(10px);}
+100%{
+opacity:1;
+transform:translate(0);
+}}
+@keyframes moveInRight{
+0%{
+opacity:0;
+transform:translatex(100px);
+}
+80%{
+transform:translatex(-10px);
+}
+100%{
+opacity:1;
+transform:translate(0);
+}}
+.logout,.click{
+	font-weight: 700;
+	margin-top: 20px;
+	font-size:20px;
+	color: #000;
+	
+}
